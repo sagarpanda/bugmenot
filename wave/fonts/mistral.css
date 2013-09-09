@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MistralRegular';
+    src: url('mistral.eot');
+    src: url('mistral.eot') format('embedded-opentype'),
+         url('mistral.woff') format('woff'),
+         url('mistral.ttf') format('truetype'),
+         url('mistral.svg#MistralRegular') format('svg');
+}

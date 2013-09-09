@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'MistralRegular';
+    src: url('../fonts/mistral.eot');
+    src: url('../fonts/mistral.eot') format('embedded-opentype'),
+         url('../fonts/mistral.woff') format('woff'),
+         url('../fonts/mistral.ttf') format('truetype'),
+         url('../fonts/mistral.svg#MistralRegular') format('svg');
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.main{
+	height: 100%;
+	width: 100%;
+	background-color: #87DBE2;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+}
+
+.logo{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	height: 85px;
+	width: 365px;
+	background: url("../imgs/name.png");
+}
+.bg_content{
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	margin-left: -291px;
+	top: 50%;
+	margin-top: -240px;
+	height: 445px;
+	width: 582px;
+	background: url("../imgs/bg_content.png");
+}
+
+.content_wrapper{
+	position: absolute;
+	font-family: "MistralRegular";
+	font-size: 1.3em;
+	width: 484px;
+	height: 376px;
+	top: 33px;
+	left: 48px;
+	color: #4f4f4f;
+}
+
+.water_wave {
+	background: url("../imgs/bg-wave.png") repeat-x;
+	background-position: 0px 0px;
+	height: 257px;
+	opacity: 0.9;
+	-webkit-animation: wave 2.5s infinite linear;
+	-moz-animation:	 wave 2.5s infinite linear;
+	-o-animation:	 wave 2.5s infinite linear;
+	animation:		 wave 2.5s infinite linear;
+	/*-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-duration:2.5s;
+	-webkit-animation-name:wave;*/
+}
+@-webkit-keyframes wave { 
+	from { background-position: 0px 0px; } 
+	to { background-position:1930px 0px; } 
+}
+@-moz-keyframes wave { 
+	from { background-position: 0px 0px; } 
+	to { background-position:1930px 0px; } 
+}
+@-o-keyframes wave { 
+	from { background-position: 0px 0px; } 
+	to { background-position:1930px 0px; } 
+}
+@keyframes wave { 
+	from { background-position: 0px 0px; } 
+	to { background-position:1930px 0px; } 
+}
+
+
+
+@-webkit-keyframes bubbling{
+	from { bottom: -20px;}
+	to {bottom: 500px}
+}
+
+@-moz-keyframes bubbling{
+	from { bottom: -20px;}
+	to {bottom: 500px}
+}
+
+@-o-keyframes bubbling{
+	from { bottom: -20px;}
+	to {bottom: 500px}
+}
+
+@keyframes bubbling{
+	from { bottom: -20px;}
+	to {bottom: 500px}
+}
+
+.bubble_20{
+	background-color: #87DBE2;
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	bottom: -20px;
+	left: 180px;
+	opacity: 0.4;
+	-webkit-animation: bubbling 2s infinite linear;
+	-webkit-animation-delay: 1.5s;
+
+	-moz-animation: bubbling 2s infinite linear;
+	-moz-animation-delay: 1.5s;
+
+	-o-animation: bubbling 2s infinite linear;
+	-o-animation-delay: 1.5s;
+
+	animation: bubbling 2s infinite linear;
+	animation-delay: 1.5s;
+}
+.bubble_16{
+	background-color: #87DBE2;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	border-radius: 8px;
+	bottom: -16px;
+	left: 60px;
+	opacity: 0.4;
+	-webkit-animation: bubbling 2s infinite linear;
+	-webkit-animation-delay: 1s;
+	-moz-animation: bubbling 2s infinite linear;
+	-moz-animation-delay: 1s;
+	-o-animation: bubbling 2s infinite linear;
+	-o-animation-delay: 1s;
+	animation: bubbling 2s infinite linear;
+	animation-delay: 1s;
+}
+.bubble_12{
+	background-color: #87DBE2;
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	border-radius: 6px;
+	bottom: -20px;
+	left: 240px;
+	opacity: 0.4;
+	-webkit-animation: bubbling 2s infinite linear;
+	-webkit-animation-delay: 0s;
+	-moz-animation: bubbling 2s infinite linear;
+	-moz-animation-delay: 0s;
+	-o-animation: bubbling 2s infinite linear;
+	-o-animation-delay: 0s;
+	animation: bubbling 2s infinite linear;
+	animation-delay: 0s;
+}
+
+.bubble_20r{
+	background-color: #87DBE2;
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	bottom: -20px;
+	right: 180px;
+	opacity: 0.4;
+	-webkit-animation: bubbling 2s infinite linear;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation: bubbling 2s infinite linear;
+	-moz-animation-delay: 1.5s;
+	-o-animation: bubbling 2s infinite linear;
+	-o-animation-delay: 1.5s;
+	animation: bubbling 2s infinite linear;
+	animation-delay: 1.5s;
+}
+.bubble_16r{
+	background-color: #87DBE2;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	border-radius: 8px;
+	bottom: -16px;
+	right: 60px;
+	opacity: 0.4;
+	-webkit-animation: bubbling 2s infinite linear;
+	-webkit-animation-delay: 1s;
+	-moz-animation: bubbling 2s infinite linear;
+	-moz-animation-delay: 1s;
+	-o-animation: bubbling 2s infinite linear;
+	-o-animation-delay: 1s;
+	animation: bubbling 2s infinite linear;
+	animation-delay: 1s;
+}
+.bubble_12r{
+	background-color: #87DBE2;
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	border-radius: 6px;
+	bottom: -20px;
+	right: 240px;
+	opacity: 0.4;
+	-webkit-animation: bubbling 2s infinite linear;
+	-webkit-animation-delay: 0s;
+	-moz-animation: bubbling 2s infinite linear;
+	-moz-animation-delay: 0s;
+	-o-animation: bubbling 2s infinite linear;
+	-o-animation-delay: 0s;
+	animation: bubbling 2s infinite linear;
+	animation-delay: 0s;
+}
+
+.bubbling_anim_1{
+	-webkit-animation: bubbling 1.5s infinite linear;
+	-webkit-animation-delay: 1.3s;
+	-moz-animation: bubbling 1.5s infinite linear;
+	-moz-animation-delay: 1.3s;
+	-o-animation: bubbling 1.5s infinite linear;
+	-o-animation-delay: 1.3s;
+	animation: bubbling 1.5s infinite linear;
+	animation-delay: 1.3s;
+}
+.bubbling_anim_2{
+	-webkit-animation: bubbling 2.5s infinite linear;
+	-webkit-animation-delay: 1.2s;
+	-moz-animation: bubbling 2.5s infinite linear;
+	-moz-animation-delay: 1.2s;
+	-o-animation: bubbling 2.5s infinite linear;
+	-o-animation-delay: 1.2s;
+	animation: bubbling 2.5s infinite linear;
+	animation-delay: 1.2s;
+}
+.bubbling_anim_3{
+	-webkit-animation: bubbling 2s infinite linear;
+	-webkit-animation-delay: 2s;
+	-moz-animation: bubbling 2s infinite linear;
+	-moz-animation-delay: 2s;
+	-o-animation: bubbling 2s infinite linear;
+	-o-animation-delay: 2s;
+	animation: bubbling 2s infinite linear;
+	animation-delay: 2s;
+}
+
+.sea{
+	bottom: 0;
+	height: 300px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+}
+.blue_bg{
+	bottom: 0;
+	background-color: #00aced;
+	height: 43px;
+	opacity: 0.9;
+	position: absolute;
+	width: 100%;
+}
+.boat{
+	position: absolute;
+	bottom: 220px;
+	-webkit-animation: boating 2.5s infinite linear;
+	-moz-animation: boating 2.5s infinite linear;
+	-o-animation: boating 2.5s infinite linear;
+	animation: boating 2.5s infinite linear;
+}
+.base {
+	border-color: #B1885C transparent transparent transparent;
+	border-style:solid;
+	border-width:20px;
+	width:70px;
+	position:relative;
+}
+.pal {
+	border-color: transparent transparent transparent #B1885C;
+	border-style:solid;
+	border-width:15px;
+	height:30px;
+	top:-82px;
+	left:60px;
+	position:relative;
+}
+@-webkit-keyframes boating{
+	0% { bottom: 220px; -webkit-transform: rotate(15deg);}
+	25% {bottom: 140px}
+	40% {bottom: 50px}
+	50% {bottom: 27px; -webkit-transform: rotate(-15deg);}
+	60% {bottom: 40px}
+	75% {bottom: 80px}
+	100% { bottom: 220px; -webkit-transform: rotate(15deg);}
+}
+@-moz-keyframes boating{
+	0% { bottom: 220px; -moz-transform: rotate(15deg);}
+	25% {bottom: 140px}
+	40% {bottom: 50px}
+	50% {bottom: 27px; -moz-transform: rotate(-15deg);}
+	60% {bottom: 40px}
+	75% {bottom: 80px}
+	100% { bottom: 220px; -moz-transform: rotate(15deg);}
+}
+@-o-keyframes boating{
+	0% { bottom: 220px; -o-transform: rotate(15deg);}
+	25% {bottom: 140px}
+	40% {bottom: 50px}
+	50% {bottom: 27px; -o-transform: rotate(-15deg);}
+	60% {bottom: 40px}
+	75% {bottom: 80px}
+	100% { bottom: 220px; -o-transform: rotate(15deg);}
+}
+@keyframes boating{
+	0% { bottom: 220px; transform: rotate(15deg);}
+	25% {bottom: 140px}
+	40% {bottom: 50px}
+	50% {bottom: 27px; transform: rotate(-15deg);}
+	60% {bottom: 40px}
+	75% {bottom: 80px}
+	100% { bottom: 220px; transform: rotate(15deg);}
+}
+
+.cloud{
+	position: absolute;
+	top:30px;
+	right: 100px;
+	height: 94px;
+	width: 138px;
+	-webkit-animation: movingcloud 70s infinite linear;
+	-moz-animation: movingcloud 70s infinite linear;
+	-o-animation: movingcloud 70s infinite linear;
+	animation: movingcloud 70s infinite linear;
+}
+@-webkit-keyframes movingcloud{
+	from { right: -140px;}
+	to {right: 3000px}
+}
+@-moz-keyframes movingcloud{
+	from { right: -140px;}
+	to {right: 3000px}
+}
+@-o-keyframes movingcloud{
+	from { right: -140px;}
+	to {right: 3000px}
+}
+@keyframes movingcloud{
+	from { right: -140px;}
+	to {right: 3000px}
+}
+.cloud .cir{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background-color: #fff;
+}
+.c_left{
+	left: 0px;
+	top: 16px;
+}
+.c_right{
+	right: 0px;
+	top: 16px;
+}
+.c_top{
+	left: 35px;
+	top: 0px;
+}
+.c_bottom{
+	left: 35px;
+	bottom: 0px;
+}
